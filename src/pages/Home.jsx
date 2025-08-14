@@ -9,50 +9,51 @@ export default function Home() {
     <>
 
       <BrowserRouter>
-        <nav className="bg-gray-900 text-white p-4 shadow-md">
-          <ul className="flex space-x-6 justify-center">
-            <li>
-              <Link
-                to="/home"
-                className="hover:text-yellow-400 transition-colors duration-300"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/about"
-                className="hover:text-yellow-400 transition-colors duration-300"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/education"
-                className="hover:text-yellow-400 transition-colors duration-300"
-              >
-                Education
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/projects"
-                className="hover:text-yellow-400 transition-colors duration-300"
-              >
-                Project
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/contact"
-                className="hover:text-yellow-400 transition-colors duration-300"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </nav>
+       <nav className="bg-gradient-to-r from-gray-900 via-gray-800 to-black text-white p-4 shadow-lg sticky top-0 z-50">
+  <ul className="flex space-x-8 justify-center font-medium tracking-wide">
+    <li>
+      <Link
+        to="/home"
+        className="hover:text-blue-400 transition-colors duration-300"
+      >
+        Home
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/about"
+        className="hover:text-blue-400 transition-colors duration-300"
+      >
+        About
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/education"
+        className="hover:text-blue-400 transition-colors duration-300"
+      >
+        Education
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/projects"
+        className="hover:text-blue-400 transition-colors duration-300"
+      >
+        Projects
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/contact"
+        className="hover:text-blue-400 transition-colors duration-300"
+      >
+        Contact
+      </Link>
+    </li>
+  </ul>
+</nav>
+
 
         <Routes>
           <Route path='/' element={<Welcome/>}/>
