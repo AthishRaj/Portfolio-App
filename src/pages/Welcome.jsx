@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter ,Routes, Route, Link  } from "react-router-dom"
 import Project from "./Project"
 // import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
@@ -24,12 +24,12 @@ export default function Welcome() {
 
   {/* Call to Action */}
   <div className="mt-8 animate-fade-in delay-600">
-    <a
-      href="/projects"
+    <Link
+        to="/projects"
       className="px-6 py-3 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600 transition duration-300"
     >
       View My Work
-    </a>
+      </Link>
   </div>
 </div>
 
