@@ -16,10 +16,35 @@ export default function Home() {
         {/* Navbar */}
         <nav className="bg-gradient-to-r from-gray-900 via-gray-800 to-black text-white p-4 shadow-lg sticky top-0 z-50">
           <div className="max-w-7xl mx-auto flex justify-between items-center">
-            {/* Logo / Site Name */}
-            <h1 className="text-lg sm:text-xl font-bold tracking-wide">
-              My<span className="text-blue-400">Portfolio</span>
-            </h1>
+            {/* Logo / Site Name  <?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 714.3 559">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: aqua;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M450.63,251.6L555.8.5H234.46l-81.8,195.3h58.43l58.43-139.5h204.49l-81.8,195.3H129.29L.75,558.5h321.34l105.17-251.1h204.49l-81.8,195.3h58.43l105.17-251.1h-262.92ZM287.04,502.7H82.55l81.8-195.3h204.49l-81.8,195.3Z"/>
+</svg>*/}
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1162.18 903"
+  className="w-8 h-8"
+>
+  <path
+    d="M716.43,401.5l86.67-299.99c14.46-50.06-23.1-100.01-75.2-100.01h-407.04c-34.87,0-65.53,23.06-75.2,56.55l-12.55,43.45-57.78,200h0c59.23,0,111.32-39.17,127.75-96.07l30.03-103.93h370l-86.67,300H250.52c-61.65,0-115.86,40.77-132.97,100h0S1.99,901.5,1.99,901.5h465.92c61.64,0,115.85-40.77,132.96-99.99h0s86.67-300.01,86.67-300.01h370l-58.92,203.93c-13.89,48.09,22.19,96.07,72.24,96.07h0l86.67-300h0c14.46-50.06-23.11-100-75.21-100h-365.91ZM422.71,801.5H130.88l64.97-224.9c12.85-44.48,53.57-75.1,99.87-75.1h291.82l-64.97,224.9c-12.85,44.48-53.57,75.1-99.87,75.1Z"
+    fill="#fff"
+    stroke="#29abe2"
+    strokeWidth="3"
+    strokeMiterlimit="10"
+  />
+</svg>
+
+
+
 
             {/* Desktop Menu */}
             <ul className="hidden md:flex space-x-8 font-medium tracking-wide">
